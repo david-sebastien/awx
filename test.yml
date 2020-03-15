@@ -1,0 +1,7 @@
+- name: set a variable
+  set_fact:
+   task_var_name: "defined variable"
+
+- name: task with a {{ task_var_name }}
+  debug:
+    msg: "I am mastery task"
