@@ -1,4 +1,4 @@
--name: Zshow me your variables
+- name: Zshow me your variables
   hosts: all
   tasks:
   - name: Which is the zurl?
