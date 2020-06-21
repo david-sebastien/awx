@@ -2,7 +2,7 @@
   hosts: all
   tasks:
   - name: Which is the zurl?
-    debug: msg="it is {{ zurl }}"
+    debug: msg="it is {{ zuser }}"
 
   - name: And the password?
     debug: msg="the secret is {{ zpass }}"
