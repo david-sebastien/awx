@@ -5,4 +5,4 @@
     debug: msg="it is {{ zurl }}"
 
   - name: And the password?
-    debug: msg="the secret is {{ zpass }}
+    debug: msg="the secret is {{ zpass }}"
