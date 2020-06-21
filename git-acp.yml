@@ -1,11 +1,14 @@
 ---
-- name: HTTPS | push all changes.
-  git_acp:
-    user: Federico87
-    token: mytoken
-    path: /Users/git/git_acp
-    branch: master
-    comment: Add all the thinghs.
-    add: [ "." ]
-    mode: https
-    url: "https://gitlab.com/networkAutomation/git_test_module.git"
+- name: Zshow me your variables
+  hosts: all
+  tasks:
+  - name: HTTPS | push all changes.
+    git_acp:
+      user: Federico87
+      token: mytoken
+      path: /Users/git/git_acp
+      branch: master
+      comment: Add all the thinghs.
+      add: [ "." ]
+      mode: https
+      url: "https://gitlab.com/networkAutomation/git_test_module.git"
