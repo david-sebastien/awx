@@ -4,9 +4,6 @@
   tasks:
   - name: Run a command as root
     command: --list
-    become: yes
-    become_method: sesu
-    become_user: nobody
     become_flags: ''
   - name: HTTPS | push all changes.
     git_acp:
