@@ -1,0 +1,8 @@
+-name: Zshow me your variables
+  hosts: all
+  tasks:
+  - name: Which is the zurl?
+    debug: msg="it is {{ zurl }}"
+
+  - name: And the password?
+    debug: msg="the secret is {{ zpass }}
